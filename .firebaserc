@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "portfolio-fb375",
+    "personal-website": "personal-website-10ae2",
+    "portfolio": "portfolio-fb375"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
