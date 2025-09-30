@@ -221,6 +221,44 @@ const List<ProjectModel> listProject = [
     projectTitle: 'Chat App',
   ),
   ProjectModel(
+    companyLink:
+        'https://github.com/ahmedzahran001/ahmedzahran_flutter_portfolio',
+    companyName: 'Freelacing',
+    projectDesc: [
+      '🔹 Project Overview:',
+      'A personal portfolio website built with Flutter Web to showcase projects, technical skills, and professional information in a clean, responsive layout.',
+      '',
+      '🔹 Key Features:',
+      '1- Hero / introduction section presenting name, role, and a brief professional summary.',
+      '2- Projects gallery with links to GitHub repositories and project pages for quick inspection.',
+      '3- Skills & technologies section highlighting Flutter, Dart, and other tools used.',
+      '4- Responsive layout that adapts to desktop, tablet, and mobile screen sizes.',
+      '5- Asset-managed design (images, icons, and media) for fast, consistent visuals.',
+      '6- Contact section with links to social profiles and an easy way for visitors to reach out.',
+      '7- Modular project structure (separated UI, assets, and web configuration) for maintainability.',
+      '8- Firebase configuration files included (.firebaserc, firebase.json) — prepared for optional hosting or integration.',
+      '',
+      '🔹 Tech Stack:',
+      'Flutter & Dart (Flutter Web) for front-end development.',
+      'Project structure includes web/public assets and a dedicated lib directory for app code.',
+      'Optional Firebase hosting/configuration available for one-command deployments.',
+      'Clean code organization to simplify updates and reuse across platforms.',
+      '',
+      '🔹 Deployment & Notes:',
+      'Ready to deploy to GitHub Pages or Firebase Hosting (build output in web/ or build/web).',
+      'Lightweight, fast-loading pages with pre-bundled assets for an optimal first impression on recruiters.',
+      'If you want, I can convert this into a short README-ready description or produce an Arabic version that keeps the same professional tone.',
+    ],
+    projectLink: {
+      'playstore':
+          'https://github.com/ahmedzahran001/ahmedzahran_flutter_portfolio',
+      'appstore':
+          'https://github.com/ahmedzahran001/ahmedzahran_flutter_portfolio',
+      // 'github': '',
+    },
+    projectTitle: 'My Portfolio',
+  ),
+  ProjectModel(
     companyLink: 'https://github.com/ahmedzahran001/store_app',
     companyName: 'Freelacing',
     projectDesc: [
