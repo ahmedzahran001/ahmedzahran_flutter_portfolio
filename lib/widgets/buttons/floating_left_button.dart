@@ -50,6 +50,15 @@ class FloatingLeftButton extends StatelessWidget {
               customIcon: 'ic_whatsapp.png',
               iconSize: 30.h,
               onPressed: () {
+                AppUtils.openLink('https://wa.me/971508561251');
+              },
+            ),
+            verticalSpace(40.h),
+            IconButtonCustom(
+              isCustomIcon: true,
+              customIcon: 'ic_whatsapp.png',
+              iconSize: 30.h,
+              onPressed: () {
                 AppUtils.openLink('https://wa.me/201028380572');
               },
             ),

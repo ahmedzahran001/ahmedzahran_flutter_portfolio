@@ -40,21 +40,39 @@ class Contact extends StatelessWidget {
         ),
         verticalSpace(40.h),
         ButtonPrimary(
-          width: 150.h,
+          width: 200.h,
           height: 60.h,
           isOutline: true,
-          label: 'Say Hello',
+          label: 'Say Hello - EGY',
           color: Colors.transparent,
           outlineColor: AppColor.primaryColor,
           radius: 5.h,
           onTap: () {
             AppUtils.launcher(
               Uri.parse(
-                  'https://wa.me/201028380572',), 
+                'https://wa.me/201028380572',
+              ),
             );
           },
         ),
-        verticalSpace(MediaQuery.of(context).size.height / 6),
+        verticalSpace(40.h),
+        ButtonPrimary(
+          width: 200.h,
+          height: 60.h,
+          isOutline: true,
+          label: 'Say Hello - UAE',
+          color: Colors.transparent,
+          outlineColor: AppColor.primaryColor,
+          radius: 5.h,
+          onTap: () {
+            AppUtils.launcher(
+              Uri.parse(
+                'https://wa.me/971508561251',
+              ),
+            );
+          },
+        ),
+        verticalSpace(MediaQuery.of(context).size.height / 7),
       ],
     );
   }

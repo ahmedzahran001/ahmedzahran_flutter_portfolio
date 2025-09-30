@@ -80,19 +80,19 @@ class _AppBarCustomState extends State<AppBarCustom> {
                 onPressed: widget.onPressedContact,
               ),
               horizontalSpace(40.h),
-              ButtonPrimary(
-                width: 90.h,
-                isOutline: true,
-                label: 'CV',
-                color: Colors.transparent,
-                outlineColor: AppColor.primaryColor,
-                radius: 5.h,
-                onTap: () {
-                  AppUtils.openLink(
-                    'https://1drv.ms/b/c/92e9f59339842d31/ETJ830IwGPxAvbTcluOmz7oBPmnuqjmZ7eHiDuaSqb7ZDQ?e=jWCeka',
-                  );
-                },
-              ),
+              // ButtonPrimary(
+              //   width: 90.h,
+              //   isOutline: true,
+              //   label: 'CV',
+              //   color: Colors.transparent,
+              //   outlineColor: AppColor.primaryColor,
+              //   radius: 5.h,
+              //   onTap: () {
+              //     AppUtils.openLink(
+              //       'https://1drv.ms/b/c/92e9f59339842d31/ETJ830IwGPxAvbTcluOmz7oBPmnuqjmZ7eHiDuaSqb7ZDQ?e=jWCeka',
+              //     );
+              //   },
+              // ),
               horizontalSpace(40.h),
             ],
     );

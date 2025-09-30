@@ -58,21 +58,21 @@ class DrawerCustom extends StatelessWidget {
               Navigator.pop(context);
             },
           ),
-          verticalSpace(40.h),
-          ButtonPrimary(
-            onTap: () {
-              Navigator.pop(context);
-              AppUtils.openLink(
-                'https://drive.google.com/file/d/1eq62rNE2s0137rQLoWxFRFWqNv6Zq3Va/view?usp=drive_link',
-              );
-            },
-            width: 90.h,
-            isOutline: true,
-            label: 'Resume',
-            color: Colors.transparent,
-            outlineColor: AppColor.primaryColor,
-            radius: 5.h,
-          ),
+          // verticalSpace(40.h),
+          // ButtonPrimary(
+          //   onTap: () {
+          //     Navigator.pop(context);
+          //     AppUtils.openLink(
+          //       'لينك ال CV ',
+          //     );
+          //   },
+          //   width: 90.h,
+          //   isOutline: true,
+          //   label: 'CV',
+          //   color: Colors.transparent,
+          //   outlineColor: AppColor.primaryColor,
+          //   radius: 5.h,
+          // ),
           verticalSpace(40.h),
           IconButton(
             onPressed: () {
