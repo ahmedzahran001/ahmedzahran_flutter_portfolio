@@ -18,7 +18,7 @@ class _AboutDetailDescState extends State<AboutDetailDesc> {
     return RichText(
       text: TextSpan(
         text:
-            "I spent most of my life in the UAE and currently reside in Egypt. I hold a Computer Science degree from Misr University for Science and Technology, where I graduated with distinction in my graduation project, developed using Flutter — a milestone that marked the beginning of my journey into Flutter development and mobile app innovation.",
+            'I spent most of my life in the UAE and currently reside in Egypt. I hold a Computer Science degree from Misr University for Science and Technology, where I graduated with distinction in my graduation project, developed using Flutter — a milestone that marked the beginning of my journey into Flutter development and mobile app innovation.',
         style: TextStyles.heeboText
             .copyWith(fontSize: 20.h, color: AppColor.textColor2),
         // children: [

@@ -26,13 +26,13 @@ class AboutDetailOne extends StatelessWidget {
               const AboutDetailDesc(),
               verticalSpace(20.h),
               Text(
-                "I specialize in integrating advanced tools and technologies, including Firebase, REST APIs, and other modern solutions, to build robust and feature-rich applications. With every project, I aim to deliver scalable, high-performance apps that provide outstanding user experiences. I am dedicated to continuously enhancing my skills, staying up-to-date with the latest industry trends, and applying best practices in every development project.",
+                'I specialize in integrating advanced tools and technologies, including Firebase, REST APIs, and other modern solutions, to build robust and feature-rich applications. With every project, I aim to deliver scalable, high-performance apps that provide outstanding user experiences. I am dedicated to continuously enhancing my skills, staying up-to-date with the latest industry trends, and applying best practices in every development project.',
                 style: TextStyles.heeboText
                     .copyWith(fontSize: 20.h, color: AppColor.textColor2),
               ),
               verticalSpace(20.h),
               Text(
-                "Here’s a snapshot of the technologies and tools I work with:",
+                'Here’s a snapshot of the technologies and tools I work with:',
                 style: TextStyles.heeboText
                     .copyWith(fontSize: 20.h, color: AppColor.textColor2),
               ),

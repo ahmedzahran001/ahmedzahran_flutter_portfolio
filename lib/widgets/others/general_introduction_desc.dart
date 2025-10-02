@@ -21,7 +21,7 @@ class _GeneralIntroductionDescState extends State<GeneralIntroductionDesc> {
     return RichText(
       text: TextSpan(
         text:
-            "I’m a software engineer passionate about mobile development, currently creating fast, scalable apps and web experiences with ",
+            'I’m a software engineer passionate about mobile development, currently creating fast, scalable apps and web experiences with ',
         style: TextStyles.heeboText
             .copyWith(fontSize: 20.h, color: AppColor.textColor2),
         children: [

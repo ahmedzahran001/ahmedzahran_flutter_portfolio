@@ -4,19 +4,22 @@ import 'package:personal_website/models/experience_model.dart';
 import 'package:personal_website/models/project_model.dart';
 
 const List listTechnologies1 = [
-  'Flutter & Dart (Mobile, Web, Desktop)',
+  'Flutter (Mobile, Web, Desktop)',
   'Version Control (Git & GitHub)',
   'Google Play Console & App Store',
-  'Clean Architecture, Design Patterns, Agile/Scrum',
-  'Firebase Integration (Auth, Firestore, Messaging, Crashlytics)',
+  'Clean Architecture, Design Patterns',
+  'Agile/Scrum',
+  'Firebase Integration',
   'REST API & Postman',
-  'GraphQL, SQLite, Hive, Secure Storage',
-  'State Management (Bloc, Provider, GetX, Riverpod)',
+  'GraphQL, SQLite, Hive',
+  'State Management (Bloc, Provider)',
   'SQL & Data Structures',
   'OOP & Design Patterns',
   'UI/UX Design & Figma',
-  'Custom Widgets, Responsive Layouts, Animations, Dark Mode',
-  'Testing (Unit/Widget/Integration), DevTools, Debugging',
+  'Custom Widgets, Responsive Layouts', 
+  'Animations, Dark Mode',
+  'Testing (Unit/Widget/Integration)',
+  'DevTools, Debugging',
 ];
 
 const List listTechnologies2 = [
