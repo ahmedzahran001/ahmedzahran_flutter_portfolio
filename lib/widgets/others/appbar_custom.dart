@@ -5,6 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:personal_website/styles/colors.dart';
 import 'package:personal_website/styles/styles.dart';
 import 'package:personal_website/utils/app_asset.dart';
+import 'package:personal_website/utils/app_utils.dart';
+import 'package:personal_website/widgets/buttons/primary_button.dart';
 import 'package:personal_website/widgets/buttons/text_button_custom.dart';
 
 class AppBarCustom extends StatefulWidget implements PreferredSizeWidget {
@@ -78,19 +80,19 @@ class _AppBarCustomState extends State<AppBarCustom> {
                 onPressed: widget.onPressedContact,
               ),
               horizontalSpace(40.h),
-              // ButtonPrimary(
-              //   width: 90.h,
-              //   isOutline: true,
-              //   label: 'CV',
-              //   color: Colors.transparent,
-              //   outlineColor: AppColor.primaryColor,
-              //   radius: 5.h,
-              //   onTap: () {
-              //     AppUtils.openLink(
-              //       'https://1drv.ms/b/c/92e9f59339842d31/ETJ830IwGPxAvbTcluOmz7oBPmnuqjmZ7eHiDuaSqb7ZDQ?e=jWCeka',
-              //     );
-              //   },
-              // ),
+              ButtonPrimary(
+                width: 90.h,
+                isOutline: true,
+                label: 'CV',
+                color: Colors.transparent,
+                outlineColor: AppColor.primaryColor,
+                radius: 5.h,
+                onTap: () {
+                  AppUtils.openLink(
+                    'https://1drv.ms/b/c/92e9f59339842d31/EWyiW_D4XONKogAY3c7Pw5oB7Cy7V3UEqDkL8XKYjWp-dA?e=PZNMSc',
+                  );
+                },
+              ),
               horizontalSpace(40.h),
             ],
     );

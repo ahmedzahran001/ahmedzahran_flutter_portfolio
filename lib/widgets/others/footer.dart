@@ -20,7 +20,7 @@ class Footer extends StatelessWidget {
               IconButtonCustom(
                 isCustomIcon: true,
                 customIcon: 'ic_github.png',
-                iconSize: 30.h,
+                iconSize: 35.h,
                 onPressed: () {
                   AppUtils.openLink('https://github.com/ahmedzahran001');
                 },
@@ -29,20 +29,22 @@ class Footer extends StatelessWidget {
               IconButtonCustom(
                 isCustomIcon: true,
                 customIcon: 'ic_linkedin.png',
-                iconSize: 30.h,
+                iconSize: 35.h,
                 onPressed: () {
                   AppUtils.openLink(
-                      'https://www.linkedin.com/in/ahmed-zahran-9808a1273/',);
+                    'https://www.linkedin.com/in/ahmed-zahran-9808a1273/',
+                  );
                 },
               ),
               horizontalSpace(40.h),
               IconButtonCustom(
                 isCustomIcon: true,
                 customIcon: 'ic_instagram.png',
-                iconSize: 30.h,
+                iconSize: 35.h,
                 onPressed: () {
                   AppUtils.openLink(
-                      'https://www.instagram.com/ahmedzahran001/',);
+                    'https://www.instagram.com/ahmedzahran001/',
+                  );
                 },
               ),
               // horizontalSpace(40.h),
@@ -57,8 +59,8 @@ class Footer extends StatelessWidget {
               horizontalSpace(40.h),
               IconButtonCustom(
                 isCustomIcon: true,
-                customIcon: 'assets/icons/ic_whatsapp.png',
-                iconSize: 30.h,
+                customIcon: 'ic_whatsapp.png',
+                iconSize: 35.h,
                 onPressed: () {
                   AppUtils.openLink('https://wa.me/201028380572');
                 },
@@ -66,8 +68,8 @@ class Footer extends StatelessWidget {
               horizontalSpace(40.h),
               IconButtonCustom(
                 isCustomIcon: true,
-                customIcon: 'assets/icons/ic_gmail.png',
-                iconSize: 30.h,
+                customIcon: 'ic_gmail.png',
+                iconSize: 35.h,
                 onPressed: () {
                   AppUtils.openLink('mailto:ahmedzhran82@gmail.com');
                 },

@@ -56,7 +56,7 @@ class About extends StatelessWidget {
                 children: [
                   ...listTechnologies1.map((e) {
                     return Padding(
-                      padding: EdgeInsets.only(bottom: 4.h),
+                      padding: EdgeInsets.only(bottom: 15.h),
                       child: Row(
                         children: [
                           Icon(
@@ -68,7 +68,9 @@ class About extends StatelessWidget {
                           Text(
                             e,
                             style: TextStyles.firaCodeText.copyWith(
-                                color: AppColor.textColor2, fontSize: 15,),
+                              color: AppColor.textColor2,
+                              fontSize: 15,
+                            ),
                           ),
                         ],
                       ),
@@ -76,13 +78,13 @@ class About extends StatelessWidget {
                   }),
                 ],
               ),
-              horizontalSpace(60.w),
+              horizontalSpace(80.w),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   ...listTechnologies2.map((e) {
                     return Padding(
-                      padding: EdgeInsets.only(bottom: 4.h),
+                      padding: EdgeInsets.only(bottom: 15.h),
                       child: Row(
                         children: [
                           Icon(
@@ -94,7 +96,9 @@ class About extends StatelessWidget {
                           Text(
                             e,
                             style: TextStyles.firaCodeText.copyWith(
-                                color: AppColor.textColor2, fontSize: 15,),
+                              color: AppColor.textColor2,
+                              fontSize: 15,
+                            ),
                           ),
                         ],
                       ),

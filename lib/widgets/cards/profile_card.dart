@@ -12,30 +12,29 @@ class ProfileCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 330.h,
-      height: 330.h,
+      width: 420.h,
+      height: 420.h,
       child: Stack(
         children: [
           Positioned(
-            top: 30.h,
-            left: 30.h,
+            top: 20.h,
+            left: 20.h,
             child: Container(
-              width: 300.h,
-              height: 300.h,
+              width: 400.h,
+              height: 400.h,
               decoration: BoxDecoration(
                 border: Border.all(color: AppColor.primaryColor),
-                borderRadius: BorderRadius.circular(15.h),
+                borderRadius: BorderRadius.circular(24.h),
               ),
             ),
           ),
           Container(
-            width: 300.h,
-            height: 300.h,
+            width: 400.h,
+            height: 400.h,
             decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage(AppAsset.image('Ahmed_Zahran.jpeg')),
-                  fit: BoxFit.cover),
-              borderRadius: BorderRadius.circular(15.r),
+              image: const DecorationImage(
+                  image: AssetImage('images/Ahmedimg.jpeg'), fit: BoxFit.cover),
+              borderRadius: BorderRadius.circular(24.r),
             ),
           ),
         ],

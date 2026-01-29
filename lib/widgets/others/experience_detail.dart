@@ -23,7 +23,7 @@ class _ExperienceDetailState extends State<ExperienceDetail> {
       child: Row(
         children: [
           SizedBox(
-            width: 200.h,
+            width: 270.h,
             child: ListView.separated(
               physics: const NeverScrollableScrollPhysics(),
               itemCount: listExperience.length,

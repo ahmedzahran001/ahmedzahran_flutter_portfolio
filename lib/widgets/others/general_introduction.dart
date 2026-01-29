@@ -28,7 +28,7 @@ class GeneralIntroduction extends StatelessWidget {
           ),
         ),
         Text(
-          'I turn ideas into mobile apps and websites.',
+          'I turn ideas into scalable mobile apps and web experiences.',
           style: TextStyles.heeboText.copyWith(
             fontSize: MediaQuery.of(context).size.width < 960 ? 40.h : 60.h,
             color: AppColor.textColor2,

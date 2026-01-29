@@ -44,15 +44,15 @@ class FloatingLeftButton extends StatelessWidget {
                 AppUtils.openLink('mailto:ahmedzhran82@gmail.com');
               },
             ),
-            verticalSpace(40.h),
-            IconButtonCustom(
-              isCustomIcon: true,
-              customIcon: 'ic_whatsapp.png',
-              iconSize: 30.h,
-              onPressed: () {
-                AppUtils.openLink('https://wa.me/971508561251');
-              },
-            ),
+            // verticalSpace(40.h),
+            // IconButtonCustom(
+            //   isCustomIcon: true,
+            //   customIcon: 'ic_whatsapp.png',
+            //   iconSize: 30.h,
+            //   onPressed: () {
+            //     AppUtils.openLink('https://wa.me/971508561251');
+            //   },
+            // ),
             verticalSpace(40.h),
             IconButtonCustom(
               isCustomIcon: true,

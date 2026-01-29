@@ -41,6 +41,10 @@ class ExperienceDetailDesc extends StatelessWidget {
                 // physics: const NeverScrollableScrollPhysics(),
                 itemCount: listExperience[selectedIndex].experiences.length,
                 itemBuilder: (context, index) {
+                  final isColored = listExperience[selectedIndex].companyName ==
+                          'Professional Flutter Training' &&
+                      (index == 0 || index == 2);
+
                   return Padding(
                     padding: EdgeInsets.only(bottom: 15.h),
                     child: Row(
@@ -56,7 +60,9 @@ class ExperienceDetailDesc extends StatelessWidget {
                             listExperience[selectedIndex].experiences[index],
                             style: TextStyles.heeboText.copyWith(
                               fontSize: 20.h,
-                              color: AppColor.textColor2,
+                              color: isColored
+                                  ? AppColor.primaryColor
+                                  : AppColor.textColor2,
                             ),
                           ),
                         ),

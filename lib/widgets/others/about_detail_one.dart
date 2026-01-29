@@ -26,7 +26,7 @@ class AboutDetailOne extends StatelessWidget {
               const AboutDetailDesc(),
               verticalSpace(20.h),
               Text(
-                'I specialize in integrating advanced tools and technologies, including Firebase, REST APIs, and other modern solutions, to build robust and feature-rich applications. With every project, I aim to deliver scalable, high-performance apps that provide outstanding user experiences. I am dedicated to continuously enhancing my skills, staying up-to-date with the latest industry trends, and applying best practices in every development project.',
+                'I specialize in integrating advanced tools and technologies such as Firebase, REST APIs, Dio, offline caching, and modular architectures to build robust, scalable, and feature-rich applications. Each project I work on is designed for high performance, maintainability, and optimal user experience. I continuously enhance my skills, stay up-to-date with industry trends, and apply best practices to ensure that every application is production-ready and aligned with modern engineering standards.',
                 style: TextStyles.heeboText
                     .copyWith(fontSize: 20.h, color: AppColor.textColor2),
               ),
